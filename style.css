@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #ac7fd6;
+    width: 700px;
+    height: 550px;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0px 10px black;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: bold 2.5rem sans-serif;
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button{
+-webkit-appearance: none;
+margin: 0;
+}
+
+.input {
+    display: flex;
+    width: 300px;
+    height: 40px;
+    justify-content: space-between;
+}
+
+.input label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.input input{
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border: none;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    background-color: #7fd68d;
+    cursor: pointer;
+}
+
+#button:hover {
+    transition: 2s;
+    background-color: #3db951;
+}
+
+.resultado {
+    background-color: #7fc2d6;
+    width: 300px;
+    height: 100px;
+    margin: 15px;
+    padding: 10px;
+    color: black;
+    box-shadow: 0 0 5px black;
+}
